@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jom journeys</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "utility.css">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                  Jom<span>journeys</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "packages.html" class = "nav-link">Packages</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                  
+                     <li class="nav-item">
+                        <a href="https://wa.me/7889552858" class="nav-link" target="_blank">
+                            <i class="fab fa-whatsapp whatsapp-icon"></i>Chat on WhatsApp
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex contact">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Get in touch with us</h1>
+<p>Ready to start your next adventure? Contact Kashmir bliss today to begin planning your dream getaway. Our dedicated team of travel experts is standing by to assist you with personalized itineraries, expert advice, and unparalleled service. Get in touch now and let's turn your travel dreams into reality.
+
+
+
+
+
+
+</p>                </div>
+               
+            </div>
+        </header>
+        <!-- header -->
+         <!-- contact section -->
+         <section id = "contact" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">get in touch with us</span>
+                    <h2 class = "lg-title">contact us</h2>
+                </div>
+
+                <div class = "contact-row">
+                    <div class = "contact-left">
+                        <form class = "contact-form " action="https://formspree.io/f/xjvnjgpb"
+                        method="POST">
+                            <input type = "text" name="name"class = "form-control" placeholder="Your name" id="username" autocomplete="off" required/>
+                            <input type = "email" name="email" class = "form-control" placeholder="Your email" id="email"autocomplete="off" required/>
+                            <input type = "phone"name="phone no." class = "form-control" placeholder="Your phone number" autocomplete="off" required/>
+                            <textarea rows = "4" name="message" class = "form-control" placeholder="Your message" style = "resize: none;" ></textarea>
+                            <input type = "submit" class = "btn" value = "Send message">
+                        </form>
+                    </div>
+                    <div class = "contact-right my-2">
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-phone-alt"></i>
+                            </span>
+                            <div>
+                                <span>Phone</span>
+                                <p class = "text">9682579590/7889552858</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-map-marked-alt"></i>
+                            </span>
+                            <div>
+                                <span>Address</span>
+                                <p class = "text">palpora pattan baramulla, jnk ,india</p>
+                            </div>
+                        </div>
+                        <div class = "contact-item">
+                            <span class = "contact-icon flex">
+                                <i class = "fa fa-envelope"></i>
+                            </span>
+                            <div>
+                                <span>Message</span>
+                                <p class = "text">jomjourneys@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+        
+ <!-- video section -->
+ <section id = "video">
+    <div class = "video-wrapper flex">
+        <video loop>
+            <source src = "WhatsApp Video 2024-04-04 at 11.25.14 AM.mp4" type = "video/mp4">
+        </video>
+        <button type = "button" id = "play-btn">
+            <i class = "fas fa-play"></i>
+        </button>
+    </div>
+</section>
+<!-- end of video section -->
+
+         <!-- footer -->
+         <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                       Jom<span>Journeys</span>
+                    </a>
+                    <p class = "text">
+                        At our company, we don't just offer tours; we craft experiences that transcend expectations. With a dedication to excellence and a passion for discovery, we curate journeys that immerse travelers in the heart and soul of each destination. </p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "https://facebook.com/profile.php?id=61563598765274&mibextid=ZbWKwL">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://instagram.com/jom_journeys">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        
+                        <li> 
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+              
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">srinagar</a></li>
+                        <li><a href = "#">Gulmarg</a></li>
+                        <li><a href = "#">Pahalgam</a></li>
+                        <li><a href = "#">Sonmarg</a></li>
+                        <li><a href = "#">Guraz</a></li>
+                        <li><a href = "#">ladakh</a></li>
+                        <li><a href = "#">patnitop</a></li>
+                        <li><a href = "#">yusmarg</a></li>
+                    </ul>
+                </div>
+                <div class = "footer-item">
+                <h3>Contact info</h3>
+                <p> <i class="fas fa-map"></i> palpora pattan baramulla, jnk ,india </p>
+                <p><i class="fas fa-phone"></i> 91-9682579590/ 7889552858 </p>
+                <p><i class="fas fa-envelope"></i> jomjourneys@gmail.com </p>
+                <p><i class="fas fa-clock"></i> 07:00am - 10:00pm</p>
+            </div>
+            </div>
+            </div>
+            <h1 class="credit">Created by <span> ms. irtizah qadri</span>  | all right reserved</h1>
+            </footer>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+      
+
+
+
+
+        <!-- js -->
+
+        <script src = "script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp/js">
+    
+            
+        </script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host:"sstp.yourisp.com",
+                    Username:"user",
+                    password:"password",
+                    To:"irtizaqadri0@gmail.com",
+                    from:document.getElementById("email").value,
+                    subject:"new contact form enquiry",
+                    body:"Name:"+ document.getElementById("name").value
+                    +"<br>Email:"+ document.getElementById("email").value
+                    +"<br>phone number:"+ document.getElementById("phone").value
+                    +"<br>Message:"+ document.getElementById("Send Message").value
+                }).then(
+                    message=>alert("message send successfully")
+                );
+            }
+        </script>
+    </body>
+</html>
+
+
+
+

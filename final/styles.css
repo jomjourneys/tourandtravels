@@ -1,0 +1,90 @@
+
+.packag{
+  min-height: 50vh;
+  padding-top: 15rem;
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(f5.jpg) center/cover no-repeat;
+ 
+          flex-direction: column;
+  color: #fff;
+  text-align: center;
+ 
+}
+  .packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .lg-title{
+    text-align: center;
+    
+    margin-top: 7rem;
+   font-size: 4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+  .package {
+
+    width: calc(33.33% - 20px); /* Adjust according to your layout */
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .package-content {
+    padding: 2px;
+  }
+  
+  .package-details h2 {
+    margin-bottom: 20px;
+  }
+  
+
+  .package-details {
+    
+    padding: 1.4rem ;
+    margin-bottom: 0rem;
+    
+    text-transform: capitalize;
+}
+.buttons a{
+  
+    
+    text-align:center;
+    background-color: var(--green);
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+    margin-top: 3rem;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .packages {
+      justify-content: center;
+    }
+    
+    .package {
+      width: calc(50% - 20px); /* Adjust according to your layout */
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .packages {
+      justify-content: center;
+    }
+    
+    .package {
+      width: calc(50% - 20px); /* Adjust according to your layout */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .package {
+      width: calc(100% - 20px); /* Adjust according to your layout */
+    }
+  }
